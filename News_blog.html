@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/News_blog.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="icon">
+                <a href="./mainpage.html">
+                    <img src="./Images/pngegg (1).png" alt="">
+                </a>
+            </div>
+            <div class="content">
+                <div class="news" onclick="content"><a href="./News.html" style="text-decoration:none">news</a></div>
+                <div class="champions" onclick="content"><a href="./Champ_list.html" style="text-decoration:none">champions</a></div>
+                <div class="user" id="user" onclick=""><a class="user" id="user" href="./user.html" style="color: white ;text-decoration:none ">user </a></div>
+                <div class>
+                    <a class="log-out" id="log-out" style="display: none;cursor: pointer;color: white ;text-decoration:none ;" href="">
+                    log out
+                </a>
+                </div>
+            </div>
+        </div>
+        <div class="between">
+            <div class="top">
+                <div class="image">
+                    <img src="./Images/anh_bia.png" alt="LEAGUE OF LEGEND">
+                </div>
+                <div class="content">
+                    <div class="mainpage" onclick=""><a href="https://lienminh.garena.vn/">mainpage</a></div>
+                    <div class="index">></div>
+                    <div class="news" onclick=""><a href="./News.html">news</a></div>
+                    <div class="index">></div>
+                    <div class="news" onclick=""><a href="./News_blog.html">blog</a></div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="search_in">
+                    <input class="search" id="search" placeholder="Search..." />
+                </div>
+                <div class="produce">
+                    <div class="title">blog</div>
+                    <div class="content">Posts that share personal opinions</div>
+                </div>
+                <div class="info_top">
+                    <a class="left" onclick="" href="./News_posts_5.html?post_5=5">
+                        <img src="./Images/Blog cá nhân/xem-thong-tin-nguoi-choi-lol-1-768x360.png">
+                        <div class="content">
+                            <div class="title">Blogger</div>
+                            <div class="detail">Cách xem thông tin người chơi</div>
+                        </div>
+                    </a>
+                    <a class="center" onclick="" href="./News_posts_5.html?post_6=6">
+                        <img src="./Images/Blog cá nhân/giam_ping_LOL.png">
+                        <div class="content">
+                            <div class="title">Blogger</div>
+                            <div class="detail">Cách giảm PING khi chơi game LOL</div>
+                        </div>
+                    </a>
+                    <a class="right" onclick="" href="./News_posts_5.html?post_7=7">
+                        <img src="./Images/Blog cá nhân/ki_tuLOL.png">
+                        <div class="content">
+                            <div class="title">Blogger</div>
+                            <div class="detail">Bảng kí tự đặc biệt LOL và cách đặt tên</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="bottom">
+                    <div class="left">
+                        <div class="title">
+                            <div class="other">other posts</div>
+                        </div>
+                        <a class="post_4" onclick="" href="./News_posts_5.html?post_2=2">
+                            <img src="./Images/Cộng đồng/garena phong chong covid19.png">
+                            <div class="content">
+                                <div class="title">Community</div>
+                                <div class="detail">Tập đoàn SEA (Shopee, Garena) đóng góp 1.000.000 USD quỹ vaccine covid-19
+                                </div>
+                            </div>
+                        </a>
+                        <a class="post_5" onclick="" href="./News_posts_5.html?post_3=3">
+                            <img src="./Images/Cộng đồng/Yasuo.png">
+                            <div class="content">
+                                <div class="title">Community</div>
+                                <div class="detail">Công bố cuộc thi "Yasuo đại chiến - Bão kiếm thuần hóa" diễn ra từ 12:00 ngày 14/03</div>
+                            </div>
+                        </a>
+                        <a class="post_6" onclick="" href="./News_posts_5.html?post_4=4">
+                            <img src="./Images/Cộng đồng/cktg2021.png">
+                            <div class="content">
+                                <div class="title">Community</div>
+                                <div class="detail">Ấn định danh sách các thành phố tổ chức CKTG 2021</div>
+                            </div>
+                        </a>
+                        <a class="post_7" href="./News_posts_5.html?post_1=1" onclick="">
+                            <img src="./Images/Sự kiện/co_vat_vb.png">
+                            <div class="content">
+                                <div class="title">Event</div>
+                                <div class="detail">Sự kiện Cổ vật vệ binh</div>
+                            </div>
+                        </a>
+                        <a class="post_8" href="https://www.youtube.com/watch?v=hBKFIGsSn18" target="_blank" style="text-decoration:none" onclick="">
+                            <img src="./Images/Sự kiện/ve_binh_anh_sang.png">
+                            <div class="content">
+                                <div class="title">Event</div>
+                                <div class="detail">Sự kiện Vệ binh ánh sáng</div>
+                            </div>
+                        </a>
+                        <a class="post_9" onclick="" href="./News_posts_5.html?post_0=0">
+                            <img src="./Images/Sự kiện/RP.PNG">
+                            <div class="content">
+                                <div class="title">Event</div>
+                                <div class="detail">Quy đổi RP - Nhận miễn phí báu vật sự kiện Vệ binh từ 0:30 ngày 16/07 đến 23:59 ngày 22/07</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="right">
+                        <div class="news" onclick="">
+                            <a href="http://127.0.0.1:5500/News_Event.html" style="text-decoration: none">
+                                <h3>event</h3>
+                            </a>
+                        </div>
+                        <div class="community" onclick="">
+                            <a href="http://127.0.0.1:5500/News_community.html" style="text-decoration: none">
+                                <h3>community</h3>
+                            </a>
+                        </div>
+                        <div class="blog" onclick="">
+                            <a href="http://127.0.0.1:5500/News_blog.html" style="text-decoration: none">
+                                <h3>blog</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="block_1">
+                <div class="riot_game">
+                    <img src="./Images/riot-games-logo-1.png" alt="">
+                </div>
+                <div class="garena">
+                    <img src="./Images/logo_garena_main.png" alt="">
+                </div>
+                <div class="vn_esport">
+                    <img src="./Images/vietnam-esports-logo.png" alt="">
+                </div>
+            </div>
+            <div class="block_2">
+                Sản phẩm được hợp tác phát hành bởi Công ty TNHH Liên Minh Huyền Thoại & Công ty Cổ phần Giải trí và Thể thao Điện tử Việt Nam. </br>
+                Văn phòng đại diện: Tầng 29, tòa nhà Trung tâm Lotte Hà Nội, số 54 đường Liễu Giai, phường Cống Vị, quận Ba Đình, thành phố Hà Nội, Việt Nam. </br>
+                Điện thoại: (04)7305-3939; Fax: (04)3759-2429
+            </div>
+            <div class="block_3">
+                <div class="block_3_left">
+                    <div class="content" onclick="block_3_left">
+                        <a href="https://lienminh.garena.vn/download" style="text-decoration:none" target="_blank">
+                            <div class="support">tải game</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="block_3_right">
+                    <div class="content" onclick="block_3_right">
+                        <a href="https://hotro.garena.vn/" style="text-decoration:none" target="_blank">
+                            <div class="support">Hỗ trợ garena</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./JS/News_blog.js"></script>
+<script src="./JS/test.js"></script>
+
+</html>
